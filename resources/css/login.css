@@ -1,0 +1,59 @@
+@media (max-width: 576px){
+    
+}
+@media (min-width: 576px){
+
+}
+@media (min-width: 768px){
+    .modal-dialog{
+        margin: auto;
+        -ms-transform: translateY(12.5vw);
+        transform: translateY(12.5vw);
+    }
+}
+@media (min-width: 992px){
+    .modal-dialog{
+        margin: auto;
+        -ms-transform: translateY(12.5vw);
+        transform: translateY(12.5vw);
+    }
+} 
+@media (min-width: 1200px){
+    .modal-dialog{
+        margin: auto;
+        -ms-transform: translateY(10.5vw);
+        transform: translateY(10.5vw);
+    }
+}
+.logo{
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+body{
+    background-color: rgb(222, 222, 222);
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    width: 90%;
+    padding: 1.5% 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+	box-shadow: 3px 5px var(--color1);	
+}
+
+input[type="submit"]{
+    background-color: var(--color2);
+    border-radius: 0;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.error{
+    text-align: center;
+}
+.register_form{
+    text-align: center;
+}
+.logo{
+    margin: 0;
+}
