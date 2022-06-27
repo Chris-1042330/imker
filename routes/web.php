@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/artiekelen', function () {
+    return view('articles');
+});
+
 Route::get('/dashboard', function () {
     return view('adm.dashboard');
 })->middleware(['auth'])->name('adm/dashboard');
