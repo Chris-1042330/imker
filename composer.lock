@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4dbd7a47864fd8ea65ce0c55f6e9feb9",
+    "content-hash": "764357b945895007b259b5998fcec221",
     "packages": [
         {
             "name": "brick/math",
@@ -307,6 +307,64 @@
                 }
             ],
             "time": "2022-02-28T11:07:21+00:00"
+        },
+        {
+            "name": "douyasi/laravel-ckeditor",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douyasi/laravel-ckeditor.git",
+                "reference": "9f936de5684c108d153e356a7cf465a73b4ca07b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douyasi/laravel-ckeditor/zipball/9f936de5684c108d153e356a7cf465a73b4ca07b",
+                "reference": "9f936de5684c108d153e356a7cf465a73b4ca07b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Douyasi\\CKEditor\\CKEditorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Douyasi\\CKEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "raoyc",
+                    "email": "raoyc2009@gmail.com"
+                }
+            ],
+            "description": "CKEditor for laravel",
+            "keywords": [
+                "ckeditor4",
+                "douyasi",
+                "image-upload",
+                "laravel",
+                "web editor",
+                "wysiwyg"
+            ],
+            "support": {
+                "issues": "https://github.com/douyasi/laravel-ckeditor/issues",
+                "source": "https://github.com/douyasi/laravel-ckeditor/tree/1.2"
+            },
+            "time": "2022-05-25T13:58:30+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
