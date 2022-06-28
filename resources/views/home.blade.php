@@ -1,7 +1,8 @@
 @section('title', 'Home')
 @include('layouts.imker')
 
-<main>
-<h1>JBYUDSHFYUSDHFUIHDSYUFHSU</h1>
+
+<main class="min-h-screen">
+    <h1>JBYUDSHFYUSDHFUIHDSYUFHSU</h1>
 </main>
 @include('layouts.footer')
