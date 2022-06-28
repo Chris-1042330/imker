@@ -1,9 +1,7 @@
-@extends('layouts.imker')
-
 @section('title', 'Home')
-<?php
-//$artiekelen = App\Articles::all();
+@include('layouts.imker')
 
-
-
-?>
+<main>
+<h1>JBYUDSHFYUSDHFUIHDSYUFHSU</h1>
+</main>
+@include('layouts.footer')
