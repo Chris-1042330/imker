@@ -47,6 +47,29 @@
                                     <x-nav-link :href="route('adm/users')" :active="request()->routeIs('adm/users')">
                                         {{ __('Users') }}
                                     </x-nav-link>
+                                    <x-nav-link :href="route('Inloggen')" :active="request()->routeIs('cursussen')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Imkervereneging')" :active="request()->routeIs('Imkervereneging')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Artikelen')" :active="request()->routeIs('Artikelen')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Nieuws archief')" :active="request()->routeIs(''Nieuws archief')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('cursussen')" :active="request()->routeIs('cursussen')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Voor imkers')" :active="request()->routeIs('Voor imkers')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Contact')" :active="request()->routeIs('Contact')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                            
+                                  
                                 </div>
                             </div>
 
@@ -64,16 +87,15 @@
                                     </x-slot>
 
                                     <x-slot name="content">
-                                        <!-- Authentication -->
-                                        <form method="POST" action="{{ route('logout') }}">
-                                            @csrf
-
-                                            <x-dropdown-link :href="route('logout')"
-                                                             onclick="event.preventDefault();
-                                                this.closest('form').submit();">
-                                                {{ __('Log Out') }}
-                                            </x-dropdown-link>
-                                        </form>
+                                        <x-nav-link :href="route('Basiscursus')" :active="request()->routeIs('Basiscursus')">
+                                        {{ __('Users') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Bijscholing')" :active="request()->routeIs('Bijscholing')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('Cursusblog')" :active="request()->routeIs('Cursusblog')">
+                                        {{ __('cursussen') }}
+                                    </x-nav-link>
                                     </x-slot>
                                 </x-dropdown>
                             </div>
