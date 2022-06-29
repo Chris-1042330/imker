@@ -48,7 +48,7 @@
                                     <x-nav-link :href="route('adm/users')" :active="request()->routeIs('adm/users')">
                                         {{ __('Users') }}
                                     </x-nav-link>
-                                    <x-nav-link :href="route('Inloggen')" :active="request()->routeIs('cursussen')">
+                                    <x-nav-link :href="route('Inloggen')" :active="request()->routeIs('Inloggen')">
                                         {{ __('Inloggen') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Imkervereneging')" :active="request()->routeIs('Imkervereneging')">
