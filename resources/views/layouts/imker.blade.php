@@ -49,25 +49,25 @@
                                         {{ __('Users') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Inloggen')" :active="request()->routeIs('cursussen')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Inloggen') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Imkervereneging')" :active="request()->routeIs('Imkervereneging')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Imkervereneging') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Artikelen')" :active="request()->routeIs('Artikelen')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Artikelen') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Nieuws archief')" :active="request()->routeIs(''Nieuws archief')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Nieuws archief') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('cursussen')" :active="request()->routeIs('cursussen')">
                                         {{ __('cursussen') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Voor imkers')" :active="request()->routeIs('Voor imkers')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Voor imkers') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Contact')" :active="request()->routeIs('Contact')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Contact') }}
                                     </x-nav-link>
                             
                                   
@@ -89,13 +89,13 @@
 
                                     <x-slot name="content">
                                         <x-nav-link :href="route('Basiscursus')" :active="request()->routeIs('Basiscursus')">
-                                        {{ __('Users') }}
+                                        {{ __('Basiscursus') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Bijscholing')" :active="request()->routeIs('Bijscholing')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Bijscholing') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Cursusblog')" :active="request()->routeIs('Cursusblog')">
-                                        {{ __('cursussen') }}
+                                        {{ __('Cursusblog') }}
                                     </x-nav-link>
                                     </x-slot>
                                 </x-dropdown>
