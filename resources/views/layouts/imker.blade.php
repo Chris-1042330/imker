@@ -57,7 +57,7 @@
                                     <x-nav-link :href="route('Artikelen')" :active="request()->routeIs('Artikelen')">
                                         {{ __('Artikelen') }}
                                     </x-nav-link>
-                                    <x-nav-link :href="route('Nieuws archief')" :active="request()->routeIs(''Nieuws archief')">
+                                    <x-nav-link :href="route('Nieuws archief')" :active="request()->routeIs('Nieuws archief')">
                                         {{ __('Nieuws archief') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('cursussen')" :active="request()->routeIs('cursussen')">
