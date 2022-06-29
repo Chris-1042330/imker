@@ -20,7 +20,7 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen flex flex-col justify-between bg-gray-100">
 
             <!-- Page Heading -->
             <header class="bg-white shadow">
@@ -111,12 +111,3 @@
                         </div>
                     </div>
             </header>
-
-            <!-- Page Content -->
-            <main>
-{{--                {{ $slot }}--}}
-            </main>
-        </div>
-        @livewireStyles
-    </body>
-</html>
