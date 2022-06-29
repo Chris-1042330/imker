@@ -20,7 +20,7 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen flex flex-col justify-between bg-gray-100">
+        <div class="min-h-screen bg-gray-100">
 
             <!-- Page Heading -->
             <header class="bg-white shadow">
@@ -36,6 +36,7 @@
                                 <div class="shrink-0 flex items-center">
                                     <a href="{{ __('Home') }}">
                                         <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
+                                        <img src="img/imker.png" height="420px"  width="700px" alt="afbeelding Imker">
                                     </a>
                                 </div>
 
@@ -111,3 +112,12 @@
                         </div>
                     </div>
             </header>
+
+            <!-- Page Content -->
+            <main>
+{{--                {{ $slot }}--}}
+            </main>
+        </div>
+        @livewireStyles
+    </body>
+</html>
