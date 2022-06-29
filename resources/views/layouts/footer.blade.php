@@ -4,9 +4,7 @@
                         <div class="flex justify-between h-16">
                             <div class="flex">
                                 <div class="shrink-0 flex items-center">
-                                    <a href="{{ __('Home') }}">
-                                        <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
-                                    </a>
+                                    <img src="img/imker.png" class="block h-10 w-auto fill-current text-gray-600" />
                                 </div>
                             </div>
                         </div>
