@@ -40,32 +40,34 @@
 
                                 <!-- Navigation Links -->
                                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-<<<<<<< HEAD
-                                    <x-nav-link :href="route('adm/dashboard')" :active="request()->routeIs('adm/dashboard')">
-                                        {{ __('Dashboard') }}
-                                    </x-nav-link>
-                                    <x-nav-link :href="route('adm/users')" :active="request()->routeIs('adm/users')">
+                                </x-nav-link>
+                                    <x-nav-link :href="route('adm/users')" :active="request()->routeIs('nieuwsarchief')">
                                         {{ __('Users') }}
                                     </x-nav-link>
-                                    <x-nav-link :href="route('auth/Login')" :active="request()->routeIs('auth/Login')">
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('adm/dashboard')" :active="request()->routeIs('nieuwsarchief')">
+                                        {{ __('Dashboard') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="route('auth/login')" :active="request()->routeIs('auth/login')">
                                         {{ __('Login') }}
                                     </x-nav-link>
                                     <x-nav-link :href="route('Imkervereneging')" :active="request()->routeIs('Imkervereneging')">
-                                    {{ __('Imkervereneging') }}
-                                    </x-nav-link>
-=======
-                                    <x-nav-link :href="route('Imkervereneging')" :active="request()->routeIs('Imkervereneging')">
->>>>>>> 34c51cd958aebfe830d31853d17c5c90b7f93a91
                                         {{ __('Imkervereneging') }}
                                     </x-nav-link>
                                     <x-nav-link :href="__('artikelen')" :active="request()->routeIs('artikelen')">
                                         {{ __('Artikelen') }}
                                     </x-nav-link>
-                                    <x-nav-link :href="route('adm/users')" :active="request()->routeIs('nieuwsarchief')">
-                                        {{ __('Nieuwsarchief') }}
+                                    <x-nav-link :href="__('nieuws archief')" :active="request()->routeIs('nieuws archief')">
+                                        {{ __('Nieuws archief') }}
                                     </x-nav-link>
                                     <x-nav-link :href="__('cursussen')" :active="request()->routeIs('cursussen')">
                                         {{ __('Cursussen') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="__('voor imkers')" :active="request()->routeIs('Voor imkers')">
+                                        {{ __('Voor imkers') }}
+                                    </x-nav-link>
+                                    <x-nav-link :href="__('contact')" :active="request()->routeIs('contact')">
+                                        {{ __('Contact') }}
                                     </x-nav-link>
                                     <div class="hidden sm:flex sm:items-center sm:ml-6" style="margin-left: 0">
                                         <x-dropdown align="left" width="48">
