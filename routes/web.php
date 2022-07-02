@@ -16,10 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
-Route::get('/artiekelen', function () {
+Route::get('/artikelen', function () {
     return view('articles');
 });
+Route::get('/cursussen', function () {
+    return view('curssusen');
+});
+Route::get('/nieuwsarchief', function () {
+    return view('nieuwsarchief');
+});
+Route::get('/imkervereniging', function () {
+    return view('imkervereniging');
+});
+
+
 
 Route::get('/dashboard', function () {
     return view('adm.dashboard');
