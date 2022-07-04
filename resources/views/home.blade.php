@@ -1,6 +1,7 @@
 @section('title', 'Home')
 @include('layouts.imker')
-<main class="min-h-screen">
-    <h1>JBYUDSHFYUSDHFUIHDSYUFHSU</h1>
-</main>
+<img src="img/stuifmeelraam-scaled.jpg">
+    <section>
+        <h1>JBYUDSHFYUSDHFUIHDSYUFHSU</h1>
+    </section>
 @include('layouts.footer')

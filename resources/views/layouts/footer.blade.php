@@ -1,3 +1,5 @@
+
+            </main>
             <footer class="static bottom-0 bg-white shadow">
                 <div class="bg-gray-50">
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
